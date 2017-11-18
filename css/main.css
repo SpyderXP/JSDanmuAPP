@@ -1,0 +1,95 @@
+* {
+    outline: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .danmu {
+    width: 500px;
+    height: 300px;
+    margin: 10px 0px 10px 0px;
+    position: relative;
+    margin-left: 20%;
+    display: inline-block;
+  }
+
+  .detail {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    overflow: auto;
+    color: #aaa;
+  }
+
+  .detail .danmuContent > *, .detail .danmuTime > * {
+    height: 22.4px;
+  }
+
+  .detail .danmuContent > *:hover, .detail .danmuTime > *:hover {
+    color: #000;
+  }
+
+  .content, .danmuContent {
+    width: 40%;
+  }
+
+  .time, .danmuTime {
+    width: 40%;
+  }
+  
+  .content, .time {
+    display: inline-block;
+  }
+
+  .danmuContent {
+    width: 40%;
+    display: inline-block;
+  }
+
+  .danmuContent > * {
+    height:;
+  }
+
+  .danmuTime {
+    width: 40%;
+    display: inline-block;
+  }
+  
+  .dosth .input, .dosth .button {
+    text-align: center;
+  }
+  
+  .dosth .input input {
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .dosth .button button {
+    padding: 6px 8px 6px 8px;
+    width: 150px;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  
+  .dosth .button button, .dosth .input input {
+    border-radius: 5px;
+    border: 1px solid #666;
+  }
+  
+  .dosth .button button#shoot:hover {
+    background: #3385ff;
+    color: #fff;
+  }
+  
+  .dosth .button button#clear:hover {
+    background: #e31313;
+    color: #fff;
+  }
+
+  #zz {
+      position: absolute;
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS实现发弹幕</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="mainbody">
+        <div id="wall" class="danmu">
+            <video controls="controls" style="height:100%;width:100%;" src="video/video.mp4"></video>
+        </div>
+        <div class="detail">
+            <div class="content">
+                <span>弹幕内容</span>
+            </div>
+            <div class="time">
+                <span>弹幕时间</span>
+            </div>
+            <hr>
+            <div id="danmucontent" class="danmuContent">
+                
+            </div>
+            <div id="danmutime" class="danmuTime">
+
+            </div>
+        </div>
+        <div class="dosth">
+            <div class="input">
+                <input id="input" type="text" placeholder="请输入您的弹幕">
+            </div>
+            <div class="button">
+                <button id="shoot">发射弹幕</button>
+                <button id="clear">清除弹幕</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
